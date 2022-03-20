@@ -34,6 +34,7 @@ Refresh kembali browser untuk melihat perubahannya
 
 ## *4. Membuat CSS Eksternal*
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
+
 ![foto](foto/foto2.0.1.PNG)
 Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
 ![foto](foto/foto8.PNG)
