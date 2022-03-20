@@ -7,46 +7,46 @@
 ## *Langkah-Langkah Praktikum 2 'CSS DASAR*
 
 Membuka text editor, Saya menggunakan Visual Studio Code
-![foto](foto/foto1.png)
+![foto](foto/foto1.PNG)
 
 # *1. Membuat dokumen HTML*
-![foto](foto/foto2.png)
+![foto](foto/foto2.PNG)
 
 Buka pada browser untuk melihat hasilnya
 
-![foto](foto/foto3.png)
+![foto](foto/foto3.PNG)
 
 ## *2. Mendeklarasikan CSS Internal*
-![foto](foto/foto4.png)
+![foto](foto/foto4.PNG)
 
-![foto](foto/foto4.1.png)
+![foto](foto/foto4.1.PNG)
 
 simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya
-![foto](foto/foto5.png)
+![foto](foto/foto5.PNG)
 ## *3. Menambahkan Inline CSS*
 tambahkan deklarasi inline CSS pada tag <p> seperti berikut
 
-![foto](foto/foto6.png)
+![foto](foto/foto6.PNG)
 
 Refresh kembali browser untuk melihat perubahannya
 
-![foto](foto/foto7.png)
+![foto](foto/foto7.PNG)
 
 ## *4. Membuat CSS Eksternal*
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
-![foto](foto/foto2.0.1.png)
+![foto](foto/foto2.0.1.PNG)
 Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
-![foto](foto/foto8.png)
+![foto](foto/foto8.PNG)
 Selanjutnya refresh kembali browser untuk melihat perubahannya.
 
-![foto](foto/foto21.png)
+![foto](foto/foto21.PNG)
 
 ## *5. Menambahkan CSS Selector*
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut
-![foto](foto/foto9.png)
+![foto](foto/foto9.PNG)
 Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
-![foto](foto/foto22.png)
+![foto](foto/foto22.PNG)
 
 # *Pertanyaan dan Tugas*
 
