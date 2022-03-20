@@ -1,69 +1,52 @@
 # Lab2Web
-| Nama      | Shobahus Solichin  |
+| Nama      | Lydia Diffani Siregar  |
 | ----------- | ----------- |
-| NIM     | 312010076       |
+| NIM     | 312010498       |
 | Kelas   | TI.20.A.1        |
 
 ## *Langkah-Langkah Praktikum 2 'CSS DASAR*
 
+Membuka text editor, Saya menggunakan Visual Studio Code
+![foto](foto/foto1.png)
+
 # *1. Membuat dokumen HTML*
+![foto](foto/foto2.png)
 
-Buatlah dokumen HTML seperti berikut ini di VSCode:
+Buka pada browser untuk melihat hasilnya
 
-![foto](foto/foto1.png)
-
-Selanjutnya buka pada brwoser untuk melihat hasilnya.
-
-![foto](foto/foto1.png)
+![foto](foto/foto3.png)
 
 ## *2. Mendeklarasikan CSS Internal*
-Kemudian tambahkan deklarasi CSS internal seperti berikut pada bagian head dokumen.
+![foto](foto/foto4.png)
 
-![foto](foto/foto1.png)
+![foto](foto/foto4.1.png)
 
-Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya.
-
-![foto](foto/foto1.png)
-
-Selanjutnya simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat
-hasilnya.
-
-![foto](foto/foto1.png)
-
+simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya
+![foto](foto/foto5.png)
 ## *3. Menambahkan Inline CSS*
+tambahkan deklarasi inline CSS pada tag <p> seperti berikut
 
-Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
+![foto](foto/foto6.png)
 
-![foto](foto/foto1.png)
+Refresh kembali browser untuk melihat perubahannya
 
-Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
-
-![foto](foto/foto1.png)
+![foto](foto/foto7.png)
 
 ## *4. Membuat CSS Eksternal*
-
-Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
-
-![foto](foto/foto1.png)
-
+Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
+![foto](foto/foto2.0.1.png)
 Kemudian tambahkan tag <link> untuk merujuk file css yang sudah dibuat pada bagian <head>
-
-![foto](foto/foto1.png)
-
+![foto](foto/foto8.png)
 Selanjutnya refresh kembali browser untuk melihat perubahannya.
 
-![foto](foto/foto1.png)
+![foto](foto/foto21.png)
 
 ## *5. Menambahkan CSS Selector*
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut
+![foto](foto/foto9.png)
+Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
-Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
-style_eksternal.css, tambahkan kode berikut.
-
-![foto](foto/foto1.png)
-
-Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
-
-![foto](foto/foto1.png)
+![foto](foto/foto22.png)
 
 # *Pertanyaan dan Tugas*
 
@@ -79,33 +62,44 @@ terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browse
 Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
 
 ## Jawab
-1. Saya akan melakukan perubahan pada tag html, gambar yang ada dibawah ini yaitu merupakan syntax HTML sebelum saya merubahnya
-![foto](foto/foto18.png "before")
-Lalu ketika saya hilangkan akhiran pada Tag `</h1>`menjadi `<h1>`, maka yang akan terjadi seluruh elemen dibawah tag tersebut akan berubah mengikuti Tag `<h1>` dikarenakan tidak ada akhiran/penutup Tag tersebut. 
-Seperti gambar dibawah ini.
-![foto](foto/foto19.png "after")
+1. Saya akan mengubah dan menambah properti dan nilai pada kode CSS, dimulai dari membuat kerangka html nya
 
-2. Tag `<p>` berfungsi untuk memberi perintah paragraf pada halaman html
+img1!
 
-	Tag `<br>` berfungsi untuk memberikan perintah breakline atau baris baru
-![foto](foto/foto20.png "paragraf & br")
+Kemudian membuat CSS nya dengan menambah properti dan nilai pada kode
 
-3. `title` berfungsi untuk memberikan judul pada gambar
+Saya menambahkan 4 selektor ke dalam CSS, diantaranya body, h2, .avatar, .header-profile. Masing-masing memiliki fungsi untuk mengatur tampilan pada html
 
-	`alt` berfungsi untuk menunjukkan sebuah alternate text (teks pengganti) yang akan muncul apabila gambar tidak dapat ditampilkan.
+pada selektor body saya menambahkan beberapa properti, yaitu margin, width, font-size, color, dst.
 
-	gambar dibawah ini menunjukan perbedaan title dan alt
-![foto](foto/foto21.png "alt title")
+selektor h2, properti font-weight, font-size
 
-4.Menurut saya Kedua property ini sangat penting dan merupakan bagian yang tidak terpisahkan dari sebuah website karena masing-masing Tag atau Element pada sebuah HTML perlu memiliki ukuran yang ideal, sebab itu berpengaruh dalam pengaturan tataletak dan tampilan sebuah website,
+selektor .avatar, properti width, border-radius
 
-	Kecuali pada kondisi tertentu seperti gambar sudah memiliki ukuran yang pas/proporsional cukup mengatur width nya saja
-![foto](foto/foto22.png)  
+selektor .header-profile, display, justify-content, align-items
 
-5. `_blank` untuk membuka link di tab baru
+img1-1!
 
-	`_self` untuk membuka link di frame link itu berada
+Pada hasil tersebut dapat dilihat, pada mode mobile lebar body terlalu ke tengah, karena widht pada selektor body diatur dengan nilai 50% pada ukuran desktop, agar dapat terlihat proporsional pada ukuran mobile dapat ditambahkan selektor @media only screen and (max-width: 760px), dan hasil nya bisa dilihat
 
-	`_top` untuk membuka link di frame paling atas (paling luar).  contohnya jika di website(1) di dalamnya ada website(2) lalu di website(2) di dalamnya ada website (3) lalu di website (3) ini ada link dan kita klik, maka link akan terbuka di website(1)
+img1-2!
 
-	`_parent` untuk membuka link di frame yang satu tingkat di atas frame link tersebut berada. contohnya jika di website(1) di dalamnya ada website(2) lalu di website(2) ini ada link dan kita klik, maka link akan terbuka di website(1)
+2. h1{} Untuk memberikan style pada semua element h1
+
+#intro h1{} Awalan simbol hash (#) memungkinkan kita untuk memberi style pada id. selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik gunakan selektor class untuk mendefinisikan element yang ingin diberi nilai. img2!
+
+3. Setelah dilakukan pengujian, deklarasi CSS Inline lebih dahulu tampil di browser, itu dikarenakan permintaan HTTP yang sangat kecil memungkinkan untuk ditampilkan dahulu
+
+Berikut merupakan hasil pengujian deklarasi CSS
+
+CSS Inline blue
+
+CSS Internal red
+
+CSS Eksternal yellow
+
+img3!
+
+4.Deklarasi id="paragraf-1" akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
+
+img4!
