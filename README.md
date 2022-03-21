@@ -42,7 +42,7 @@ Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada ba
 
 Selanjutnya refresh kembali browser untuk melihat perubahannya.
 
-![foto](foto/21.PNG)
+![foto](foto/foto21.PNG)
 
 ## 5. Menambahkan CSS Selektor
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut
@@ -51,7 +51,7 @@ Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada fil
 
 Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
-![foto](oto/pp.PNG)
+![foto](foto/22.PNG)
 
 
 ## Pertanyaan dan Tugas
