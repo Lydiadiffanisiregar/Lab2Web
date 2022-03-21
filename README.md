@@ -63,31 +63,13 @@ terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browse
 Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
 
 ## Jawab
-1. Saya akan mengubah dan menambah properti dan nilai pada kode CSS, dimulai dari membuat kerangka html nya
-
-img1!
-
-Kemudian membuat CSS nya dengan menambah properti dan nilai pada kode
-
-Saya menambahkan 4 selektor ke dalam CSS, diantaranya body, h2, .avatar, .header-profile. Masing-masing memiliki fungsi untuk mengatur tampilan pada html
-
-pada selektor body saya menambahkan beberapa properti, yaitu margin, width, font-size, color, dst.
-
-selektor h2, properti font-weight, font-size
-
-selektor .avatar, properti width, border-radius
-
-selektor .header-profile, display, justify-content, align-items
-
-img1-1!
-
-Pada hasil tersebut dapat dilihat, pada mode mobile lebar body terlalu ke tengah, karena widht pada selektor body diatur dengan nilai 50% pada ukuran desktop, agar dapat terlihat proporsional pada ukuran mobile dapat ditambahkan selektor @media only screen and (max-width: 760px), dan hasil nya bisa dilihat
-
-img1-2!
-
+1. -Disini saya merubah font-color,fontnya saya ubah menjadi justify, contohnya pada gambar berikut :
+![foto](foto/foto22.PNG)
+-Setelah perubahan,
+![foto](foto/sesudah.PNG)
 2. h1{} Untuk memberikan style pada semua element h1
 
-#intro h1{} Awalan simbol hash (#) memungkinkan kita untuk memberi style pada id. selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik gunakan selektor class untuk mendefinisikan element yang ingin diberi nilai. img2!
+#intro h1{} Awalan simbol hash (#) memungkinkan kita untuk memberi style pada id. selector id bersifat kaku dan tidak bisa digunakan kembali pada element yang lainnya. Menurut saya lebih baik gunakan selektor class untuk mendefinisikan element yang ingin diberi nilai.
 
 3. Setelah dilakukan pengujian, deklarasi CSS Inline lebih dahulu tampil di browser, itu dikarenakan permintaan HTTP yang sangat kecil memungkinkan untuk ditampilkan dahulu
 
@@ -98,9 +80,7 @@ CSS Inline blue
 CSS Internal red
 
 CSS Eksternal yellow
-
-img3!
+![foto](foto/234.PNG)
 
 4.Deklarasi id="paragraf-1" akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
-
-img4!
+![foto](foto/235.PNG)
