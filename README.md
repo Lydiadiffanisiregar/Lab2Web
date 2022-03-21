@@ -8,50 +8,50 @@ Membuka text editor, Saya menggunakan Visual Studio Code
 ![foto](foto/foto1.PNG)
 
 ## 1. Membuat Dokumen HTML
-![Foto](Foto/foto2.png)
+![foto](foto/foto2.PNG)
 
 Buka pada browser untuk melihat hasilnya
 
-![Foto](Foto/foto3.png)
+![oto](foto/foto3.PNG)
 
 ## 2. Mendeklarasikan CSS Internal
-![Foto](Foto/foto4.png)
-![Foto](Foto/foto4.1.png)
+![foto](foto/foto4.PNG)
+![foto](foto/foto4.1.PNG)
 
 simpan perubahan yang ada, dan lakukan refresh pada browser untuk melihat hasilnya
 
-![Foto](Foto/foto5.png)
+![foto](foto/foto5.PNG)
 
 ## 3. Menambahkan Inline CSS
 tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut
 
-![Foto](Foto/foto6.png)
+![foto](foto/foto6.PNG)
 
 Refresh kembali browser untuk melihat perubahannya
 
-![Foto](Foto/foto7.png)
+![foto](foto/foto7.PNG)
 
 ## 4. Membuat CSS Eksternal
 Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut
 
-![Foto](Foto/2.0.1.png)
+![foto](foto/2.0.1.PNG)
 
 Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagian `<head>`
 
-![Foto](Foto/foto8.png)
+![foto](foto/foto8.PNG)
 
 Selanjutnya refresh kembali browser untuk melihat perubahannya.
 
-![Foto](Foto/21.png)
+![foto](foto/21.PNG)
 
 ## 5. Menambahkan CSS Selektor
 Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file style_eksternal.css, tambahkan kode berikut
 
-![Foto](Foto/foto9.png)
+![foto](foto/foto9.PNG)
 
 Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 
-![Foto](Foto/pp.png)
+![foto](oto/pp.PNG)
 
 
 ## Pertanyaan dan Tugas
@@ -64,10 +64,10 @@ Kemudian simpan kembali dan refresh browser untuk melihat perubahannya
 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.</b><br>
   - Jawaban = 
 Disini saya merubah font-color,fontnya saya ubah menjadi justify, contohnya pada gambar berikut : <br>
-![Foto](Foto/pp.png)<br>  
+![foto](foto/pp.PNG)<br>  
   
   - Setelah perubahan,
-![Foto](Foto/sesudah.png)<br>
+![foto](foto/sesudah.PNG)<br>
 
 2. `h1{}` Untuk memberikan style pada semua element h1
 
@@ -84,8 +84,8 @@ Disini saya merubah font-color,fontnya saya ubah menjadi justify, contohnya pada
 	
 	CSS Eksternal `yellow`
 	
-	![Foto](Foto/234.png)
+	![foto](foto/234.PNG)
 
 4. Deklarasi `id="paragraf-1"` akan ditampilkan pada browser, karena selektor id lebih spesifik dari class atau bahkan element P itu sendiri, kecuali jika kita menambahkan property pada inline element P maka selektor id tersebut akan tertimpa, karena inline lebih spesifik daripada id, class, dan element
 
-	![Foto](Foto/235.png)
+	![foto](foto/235.PNG)
