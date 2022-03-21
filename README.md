@@ -64,7 +64,7 @@ Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
 
 ## Jawab
 1. -Disini saya merubah font-color,fontnya saya ubah menjadi justify, contohnya pada gambar berikut :
-![foto](foto/foto22.PNG)
+![foto](foto/pp.PNG)
 -Setelah perubahan,
 ![foto](foto/sesudah.PNG)
 2. h1{} Untuk memberikan style pada semua element h1
